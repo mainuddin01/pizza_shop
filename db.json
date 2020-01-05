@@ -57,9 +57,10 @@
   "products": [
     {
       "id": 1,
-      "title": "hello",
-      "description": "this is the description",
+      "title": "Cheese Pizza",
+      "description": "Phasellus efficitur lorem libero, vel ultricies eros pulvinar vel. Cras aliquam tortor.",
       "price": 12.35,
+      "featured": true,
       "category": [
         3,
         1
@@ -71,15 +72,46 @@
     },
     {
       "id": 2,
-      "title": "Hi",
-      "description": "this is the description",
+      "title": "VEG Pizza",
+      "description": "Phasellus efficitur lorem libero, vel ultricies eros pulvinar vel. Cras aliquam tortor.",
       "price": 98.45,
+      "featured": false,
       "category": [
         4
       ],
       "images": [
         2,
         3
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Chicken Pizza",
+      "description": "Phasellus efficitur lorem libero, vel ultricies eros pulvinar vel. Cras aliquam tortor.",
+      "price": 80.00,
+      "featured": true,
+      "category": [
+        4,
+        1
+      ],
+      "images": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Italian Pizza",
+      "description": "Phasellus efficitur lorem libero, vel ultricies eros pulvinar vel. Cras aliquam tortor.",
+      "price": 45.21,
+      "featured": true,
+      "category": [
+        2,
+        1
+      ],
+      "images": [
+        3,
+        1
       ]
     }
   ]
