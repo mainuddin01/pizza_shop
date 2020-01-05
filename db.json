@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Md",
+      "last_name": "Mainuddin",
+      "email": "95mainuddin@gmail.com",
+      "password": "demo1234"
+    },
+    {
+      "id": 2,
+      "first_name": "Partha",
+      "last_name": "Sarothi",
+      "email": "parthasarothi@gmail.com",
+      "password": "demo1234"
+    },
+    {
+      "id": 3,
+      "first_name": "Md",
+      "last_name": "Kawser",
+      "email": "kawser@gmail.com",
+      "password": "demo1234"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Vegitable Pizza"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Pizza"
+    },
+    {
+      "id": 3,
+      "name": "Cheese Pizza"
+    },
+    {
+      "id": 4,
+      "name": "Italian Pizza"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "url": "https://res.cloudinary.com/mainuddin/image/upload/v1578167213/react-blog/colorful-flowers-terraced-hillside-garden-design_11850_bengcp.jpg"
+    },
+    {
+      "id": 2,
+      "url": "https://res.cloudinary.com/mainuddin/image/upload/v1578163788/react-blog/poppies-orange-flowers-garden-design_11847_olo3mk_xoelna_wehuv5.jpg"
+    },
+    {
+      "id": 3,
+      "url": "https://res.cloudinary.com/mainuddin/image/upload/v1578163495/react-blog/back_yhpghh_nzs5vb.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "hello",
+      "description": "this is the description",
+      "price": 12.35,
+      "category": [
+        3,
+        1
+      ],
+      "images": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Hi",
+      "description": "this is the description",
+      "price": 98.45,
+      "category": [
+        4
+      ],
+      "images": [
+        2,
+        3
+      ]
+    }
+  ]
+}
