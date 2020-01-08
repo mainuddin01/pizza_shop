@@ -113,6 +113,21 @@
         3,
         1
       ]
+    },
+    {
+      "id": 5,
+      "title": "Special Pizza",
+      "description": "Phasellus efficitur lorem libero, vel ultricies eros pulvinar vel. Cras aliquam tortor.",
+      "price": 17.45,
+      "featured": true,
+      "category": [
+        4,
+        1
+      ],
+      "images": [
+        2,
+        3
+      ]
     }
   ]
 }
